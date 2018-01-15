@@ -6,6 +6,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Roboto:400,700,900" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" href="resources/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="resources/style.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <!-- Header -->
@@ -38,10 +46,12 @@
 
       <!-- Banner -->
       <div id="banner">
-        <div class="section-images">
-          <img src="../capstone_colmar_assets/resources/images/banner.jpg" alt="banner-image">
+        <div id="banner-image">
+          <figure>
+            <img src="../capstone_colmar_assets/resources/images/banner.jpg" alt="banner-image">
+          </figure>
         </div>
-        <div id="banner-info">
+        <div id="banner-headline">
           <h1><strong>Learn something new everyday</strong></h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
           <button type="button" name="start">Start here</button> <!-- might need to be its own div? -->
@@ -53,10 +63,12 @@
 
         <!-- Main info -->
         <div class="main-info">
-          <div class="section-images">
+          <div id="info-image">
+            <figure>
               <img src="../capstone_colmar_assets/resources/images/information-main.jpg" alt="information-main">
+            </figure>
           </div>
-          <div id="main-info-info">
+          <div id="main-headerline">
             <h2>It doesn't hurt to keep practicing</h2>
             <p>"Curabitur hendrerit neque eu tempor blandit. Aenean odio turpis, ultrices faucibus vestibulum nec, maximus quis ante. Nullam luctus, mauris a commodo molestie, erat est vehicula enim, at vestibulum nibh mauris ac tortor."</p>
             <span>Emanuel, Sr Strategist at Hiring.com</span>
@@ -65,26 +77,41 @@
 
         <!-- Sub-info -->
         <div class="sub-info">
-          <div class="more-info">
-            <img src="" alt="">
-            <h4>Orientation Date</h4>
-            <p>Tue 10/11 &amp; Wed 10/12: 8am - 3pm</p>
-            <span><a href="#">Read More</a></span>
-          </div>
-          <div class="more-info">
-            <img src="" alt="">
-            <h4>Our Campus</h4>
-            <p>Find which campus is close by you</p>
-            <span><a href="#">Read More</a></span>
-          </div>
-          <div class="more-info">
-            <img src="" alt="">
-            <h4>Our Guest Lecture</h4>
-            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-            <span><a href="#">Read More</a></span>
-          </div>
-        </div> <!-- End Sub-info -->
 
+          <div class="more-info">
+            <div class="more-info-images">
+              <img src="../capstone_colmar_assets/resources/images/information-orientation.jpg" alt="orientation">
+            </div>
+            <div class="more-info-header">
+              <h4>Orientation Date</h4>
+              <p>Tue 10/11 &amp; Wed 10/12: 8am - 3pm</p>
+              <span><a href="#">Read More</a></span>
+            </div>
+          </div> <!-- End more-info 1 -->
+
+          <div class="more-info">
+            <div class="more-info-images">
+              <img src="../capstone_colmar_assets/resources/images/information-campus.jpg" alt="campus">
+            </div>
+            <div class="more-info-header">
+              <h4>Our Campus</h4>
+              <p>Find which campus is close by you</p>
+              <span><a href="#">Read More</a></span>
+            </div>
+          </div> <!-- End more-info 2 -->
+
+          <div class="more-info">
+            <div class="more-info-images">
+              <img src="../capstone_colmar_assets/resources/images/information-guest-lecture.jpg" alt="lecture">
+            </div>
+            <div class="more-info-header">
+              <h4>Our Guest Lecture</h4>
+              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+              <span><a href="#">Read More</a></span>
+            </div>
+          </div> <!-- End more-info 3 -->
+
+        </div> <!-- End Sub-info -->
       </div> <!-- End info -->
 
       <!-- Learn -->
@@ -165,5 +192,6 @@
       <span><a href="#">Terms</a></span>
       <span><a href="#">Privacy</a></span>
     </footer>
+
   </body>
 </html>
