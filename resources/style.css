@@ -94,6 +94,10 @@ header {
   width: 40%;
 }
 
+#banner-headline h3 {
+  color: #52A5C9;
+}
+
 #banner-headline button {
   padding: 0.5rem 0;
   width: 80%;
@@ -130,6 +134,11 @@ header {
   padding: 1.5rem 2.5rem;
 }
 
+#main-headerline p {
+  font-style: italic;
+  color: #52A5C9;
+}
+
 /* Sub Info */
 
 .sub-info {
@@ -138,7 +147,7 @@ header {
   align-items: flex-start;
   justify-content: space-between;
   width: 40%;
-  border-left: 1px solid #eee;
+  border-left: 1px solid #d8d8d8;
 }
 
 .more-info {
@@ -162,7 +171,7 @@ header {
 }
 
 .more-info:last-child {
-  background: #eee;
+  background: #d8d8d8;
 }
 
 .more-info-details a {
