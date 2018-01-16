@@ -38,14 +38,29 @@ header {
 .content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .content span {
   flex: 1;
 }
 
-.content img {
+#logo {
+  display: flex;
+}
+
+#logo img {
   padding-left: 1.5rem;
+}
+
+#logo h4 {
+  font-weight: 800;
+  color: #4a4a4a;
+}
+
+#logo h4 span {
+  font-weight: 400;
+  color: #52A5C9;
 }
 
 .content nav ul {
@@ -168,6 +183,8 @@ header {
 .more-info-details {
   width: 65%;
   align-self: center;
+  padding-right: 1.5rem;
+  padding-left: 0;
 }
 
 .more-info:last-child {
@@ -180,4 +197,56 @@ header {
 
 .more-info-details a:hover {
   color: #4a4a4a;
+}
+
+.more-info-details p {
+  font-size: 0.875rem;
+}
+
+.mobile-image {
+  display: none;
+}
+
+/* Learn section */
+
+#learn {
+  background-color: #d8d8d8;
+}
+
+#learn h1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem 4.5rem;
+}
+
+.course {
+  background-color: #fff;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  color: #52A5C9;
+}
+
+.course span {
+  padding-left: 1rem;
+}
+
+.course p {
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
 }

@@ -19,8 +19,10 @@
     <!-- Header -->
     <header>
       <div class="content">
-        <img src="../capstone_colmar_assets/resources/images/ic-logo.svg" alt="academy-logo">
-        <span><strong>COLMAR</strong>ACADEMY</span>
+        <div id="logo">
+          <img src="../capstone_colmar_assets/resources/images/ic-logo.svg" alt="academy-logo">
+          <h4>COLMAR<span>ACADEMY</span></h4>
+        </div>
         <nav class="desktop">
           <ul>
             <li><a href="#">On campus</a></li>
@@ -52,7 +54,7 @@
           </figure>
         </div>
         <div id="banner-headline">
-          <h1><strong>Learn something new everyday</strong></h1>
+          <h1>Learn something new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
           <button type="button" name="start">Start here</button> <!-- might need to be its own div? -->
         </div>
@@ -80,10 +82,11 @@
 
           <div class="more-info">
             <div class="more-info-images">
-              <img src="../capstone_colmar_assets/resources/images/information-orientation.jpg" alt="orientation">
+              <img class="desktop-image" src="../capstone_colmar_assets/resources/images/information-orientation.jpg" alt="orientation">
+              <img class="mobile-image" src="../capstone_colmar_assets/resources/images/information-orientation-mobile.jpg" alt="orientation">
             </div>
             <div class="more-info-details">
-              <h4>Orientation Date</h4>
+              <h3>Orientation Date</h3>
               <p>Tue 10/11 &amp; Wed 10/12: 8am - 3pm</p>
               <span><a href="#">Read More</a></span>
             </div>
@@ -91,10 +94,11 @@
 
           <div class="more-info">
             <div class="more-info-images">
-              <img src="../capstone_colmar_assets/resources/images/information-campus.jpg" alt="campus">
+              <img class="desktop-image" src="../capstone_colmar_assets/resources/images/information-campus.jpg" alt="campus">
+              <img class="mobile-image" src="../capstone_colmar_assets/resources/images/information-campus-mobile.jpg" alt="campus">
             </div>
             <div class="more-info-details">
-              <h4>Our Campus</h4>
+              <h3>Our Campus</h3>
               <p>Find which campus is close by you</p>
               <span><a href="#">Read More</a></span>
             </div>
@@ -102,10 +106,11 @@
 
           <div class="more-info">
             <div class="more-info-images">
-              <img src="../capstone_colmar_assets/resources/images/information-guest-lecture.jpg" alt="lecture">
+              <img class ="desktop-image" src="../capstone_colmar_assets/resources/images/information-guest-lecture.jpg" alt="lecture">
+              <img class ="mobile-image" src="../capstone_colmar_assets/resources/images/information-guest-lecture-mobile.jpg" alt="lecture">
             </div>
             <div class="more-info-details">
-              <h4>Our Guest Lecture</h4>
+              <h3>Our Guest Lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
               <span><a href="#">Read More</a></span>
             </div>
@@ -116,45 +121,53 @@
 
       <!-- Learn -->
       <div id="learn">
-        <h3>Start learning</h3>
+        <h1>Start learning</h1>
         <!-- courses -->
         <div class="courses">
-          <img src="" alt="software-engineering">
-          <h4>Software Engineering</h4>
-          <span>COURSES</span>
-          <p>Web Development, Mobile Development, iOT, APIs</p>
-        </div>
-        <div class="courses">
-          <img src="" alt="computer-art">
-            <h4>Computer Art</h4>
+          <!-- Course 1 -->
+          <div class="course">
+            <img src="../capstone_colmar_assets/resources/images/course-software.jpg" alt="software-engineering">
+            <h3>Software Engineering</h3>
             <span>COURSES</span>
-            <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
-        </div>
-        <div class="courses">
-          <img src="" alt="design">
-          <h4>Design</h4>
-          <span>COURSES</span>
-          <p>User Experience Design, User Research, Visual Design</p>
-        </div>
-        <div class="courses">
-          <img src="" alt="data">
-          <h4>Data</h4>
-          <span>COURSES</span>
-          <p>Data Science, Big Data, SQL, Data Visualization</p>
-        </div>
-        <div class="courses">
-          <img src="" alt="business">
-          <h4>Business</h4>
-          <span>COURSES</span>
-          <p>Product Development, Business Development, Startup</p>
-        </div>
-        <div class="courses">
-          <img src="" alt="marketing">
-          <h4>Marketing</h4>
-          <span>COURSES</span>
-          <p>Analytics, Content Marketing, Mobile Marketing</p>
-        </div>
-      </div> <!-- End courses -->
+            <p>Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+          <!-- Course 2 -->
+          <div class="course">
+            <img src="../capstone_colmar_assets/resources/images/course-computer-art.jpg" alt="computer-art">
+              <h3>Computer Art</h3>
+              <span>COURSES</span>
+              <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+          </div>
+          <!-- Course 3 -->
+          <div class="course">
+            <img src="../capstone_colmar_assets/resources/images/course-design.jpg" alt="design">
+            <h3>Design</h3>
+            <span>COURSES</span>
+            <p>User Experience Design, User Research, Visual Design</p>
+          </div>
+          <!-- Course 4 -->
+          <div class="course">
+            <img src="../capstone_colmar_assets/resources/images/course-data.jpg" alt="data">
+            <h3>Data</h3>
+            <span>COURSES</span>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+          <!-- Course 5 -->
+          <div class="course">
+            <img src="../capstone_colmar_assets/resources/images/course-business.jpg" alt="business">
+            <h3>Business</h3>
+            <span>COURSES</span>
+            <p>Product Development, Business Development, Startup</p>
+          </div>
+          <!-- Course 6 -->
+          <div class="course">
+            <img src="../capstone_colmar_assets/resources/images/course-marketing.jpg" alt="marketing">
+            <h3>Marketing</h3>
+            <span>COURSES</span>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </div> <!-- End courses -->
+      </div> <!-- End learn -->
 
       <!-- Exhibit -->
       <div id="exhibit">
