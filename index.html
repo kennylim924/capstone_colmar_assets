@@ -171,39 +171,56 @@
 
       <!-- Exhibit -->
       <div id="exhibit">
+        <div class="exhibit-header">
+          <h1>Thesis exhibit</h1>
+        </div>
 
-        <!-- Re-use main-info class -->
-        <div class="main-info">
-          <span>Video</span>
-          <video src="videofile.ogg" autoplay poster="posterimage.jpg">
-            Your browser does not support the video tag.
-          </video>
-          <h2>Reimagine urban</h2>
-          <p>"Curabitur hendrerit neque eu tempor blandit. Aenean odio turpis, ultrices faucibus vestibulum nec, maximus quis ante. Nullam luctus, mauris a commodo molestie, erat est vehicula enim, at vestibulum nibh mauris ac tortor."</p>
-        </div> <!-- End main-info -->
+        <!-- Exhibit showcase -->
+        <div class="exhibit-showcase">
+          <div class="exhibit-info">
+            <video controls>
+              <source src="../capstone_colmar_assets/resources/videos/thesis.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2>Reimagine urban</h2>
+            <p>"Curabitur hendrerit neque eu tempor blandit. Aenean odio turpis, ultrices faucibus vestibulum nec, maximus quis ante. Nullam luctus, mauris a commodo molestie, erat est vehicula enim, at vestibulum nibh mauris ac tortor."</p>
+          </div> <!-- End exhibit-info -->
 
-        <!-- Re-use sub-info class -->
-        <div class="sub-info">
-          <div class="more-info">
-            <img src="" alt="">
-            <h4>Fisma: Design and Prototype</h4>
-            <p>Designer showcase of new prototype product</p>
-          </div>
-          <div class="more-info">
-            <img src="" alt="">
-            <h4>Now and then</h4>
-            <p>Research study about New York</p>
-          </div>
-        </div> <!-- End sub-info -->
+          <!-- Re-use sub-info class -->
+          <div class="exhibit-features">
+            <div class="feature">
+              <div class="feature-image">
+                <img src="../capstone_colmar_assets/resources/images/thesis-fisma.jpg" alt="fisma">
+              </div>
+              <div class="feature-info">
+                <h4>Fisma: Design and Prototype</h4>
+                <p>Designer showcase of new prototype product</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-image">
+                <img src="../capstone_colmar_assets/resources/images/thesis-now-and-then.jpg" alt="">
+              </div>
+              <div class="feature-info">
+                <h4>Now and then</h4>
+                <p>Research study about New York</p>
+              </div>
+            </div>
+          </div> <!-- End exhibit-features -->
+        </div> <!-- End exhibit-showcase -->
       </div> <!-- End exhibit -->
 
     </div> <!-- End main content -->
 
     <!-- Footer -->
     <footer>
-      <span>&copy; Colmar Academy. All rights resrved</span>
-      <span><a href="#">Terms</a></span>
-      <span><a href="#">Privacy</a></span>
+      <span class="copyright">
+        &copy; Colmar Academy. All rights resrved
+      </span>
+      <div class="footer-links">
+        <span><a href="#">Terms</a></span>
+        <span><a href="#">Privacy</a></span>
+      </div>
     </footer>
 
   </body>
