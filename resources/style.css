@@ -436,6 +436,12 @@ footer {
     position: relative;
     overflow: hidden;
   }
+
+  /* Sub-info */
+
+  .more-info:last-child {
+    background: none;
+  }
 }
 
 @media only screen and (max-width: 545px) {
@@ -493,6 +499,10 @@ footer {
 
   .more-info {
     flex-direction: column;
+  }
+
+  .more-info:last-child {
+    background: none;
   }
 
   .more-info-images {
